@@ -1,0 +1,104 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(30deg, #a64bf0, rgb(68, 0, 255), rgba(16, 245, 157, 0.623));
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.calculator-grid{
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(120px, auto), repeat(5, 100px);
+    /* min-height: 80vh; */
+    background-color: rgb(241, 236, 236);
+    box-shadow: 4px 4px 10px rgb(48, 3, 172);
+}
+.calculator-grid .name{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 10px 0;
+    padding: 0 2px;
+    font-size: 14px;
+}
+.calculator-grid .name span{
+    background-color: rgb(255, 88, 88);
+    color: white;
+    padding: 3px 10px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.calculator-grid .name span:hover{
+    background-color: rgb(247, 10, 10);
+}
+.calculator-grid > button{
+    margin: 3px 5px;
+    min-height: 2em;
+    cursor: pointer;
+    font-size: 1.5rem;
+    outline: none;
+    transition: all 0.2s ease-in;
+
+    background-color: rgb(236, 229, 229);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: inset -3px -3px 6px rgb(252, 249, 249),
+                      3px 3px 6px rgb(192, 192, 192);
+}
+.calculator-grid > button:hover{
+    box-shadow: 3px 3px 6px rgb(151, 150, 150);
+}
+.calculator-grid > button:active{
+    background-color: rgb(184, 177, 177);
+    box-shadow: 3px 3px 6px rgb(192, 192, 192);
+}
+.span-two{
+    grid-column: span 2;
+}
+.output{
+    padding: 10px;
+    min-height: 6em;
+    grid-column: 1/-1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 8px;
+    background-color: rgb(238, 234, 234);
+    box-shadow: inset 4px 4px 10px silver;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.output *{
+    min-height: 2em;
+    font-weight: 600;
+}
+.previous-operand{
+    color: rgb(85, 80, 80);
+}
+.current-operand{
+    color: rgb(22, 21, 21);
+    font-size: 2.5rem;
+}
+.calculator-grid .ac{
+    color: white;
+    border: 1px solid rgb(31, 101, 231);
+    background-color: rgb(31, 101, 231);
+    box-shadow: inset -3px -3px 6px rgb(93, 158, 233),
+                      3px 3px 6px rgb(192, 192, 192);
+}
+.calculator-grid .dl{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(235, 54, 48);
+    background-color: rgb(235, 54, 48);
+    box-shadow: inset -3px -3px 6px rgb(236, 109, 109),
+                      3px 3px 6px rgb(192, 192, 192);
+}
