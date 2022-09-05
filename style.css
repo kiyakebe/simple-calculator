@@ -7,7 +7,7 @@ body{
     position: relative;
     background-image: linear-gradient(30deg, #a64bf0, rgb(68, 0, 255), rgba(16, 245, 157, 0.623));
     height: 100vh;
-    padding-top: 5%;
+    padding-top: 2%;
     display: flex;
     align-items: baseline;
     justify-content: center;
@@ -53,6 +53,14 @@ body{
     border: 2px solid rgb(255, 255, 255);
     box-shadow: inset -3px -3px 6px rgb(252, 249, 249),
                       3px 3px 6px rgb(192, 192, 192);
+}
+.calculator-grid > .operation-function{
+    color: rgb(5, 103, 110);
+    background-color: rgb(224, 220, 220);
+    border: 2px solid rgb(243, 239, 239);
+    box-shadow: inset -3px -3px 6px rgb(241, 238, 238),
+                       3px 3px 6px rgb(192, 192, 192);
+
 }
 .calculator-grid > button:hover{
     box-shadow: 3px 3px 6px rgb(151, 150, 150);
@@ -151,6 +159,7 @@ body{
     padding: 1em;
     margin: 0 1em;
     border: none;
+    display: none;
     background-color: rgb(228, 218, 218);
     cursor: pointer;
 }
