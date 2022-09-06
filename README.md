@@ -1,5 +1,5 @@
 
-# :fire: Simple Caculator
+# :fire: Simple Caculator ## :clap:
 
   By: kiya kebe </br>
   Date: Sep 6/ 2022 </br>
@@ -22,3 +22,4 @@
 - Square Root
 - Logarithm
 
+Licensed unde  MTI License
