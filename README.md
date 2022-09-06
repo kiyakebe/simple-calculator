@@ -3,7 +3,7 @@
 
   By: kiya kebe </br>
   Date: Sep 6/ 2022 </br>
-  This calculator build using HTML, CSS and JS. It is capable of calculating simple operation.
+  This calculator is build using HTML, CSS and JS. It is capable of calculating simple operation.
   
   To use:
   1. (+, -, /, *, ^, %) use the operator at the middle of the two inpute
