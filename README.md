@@ -1,5 +1,5 @@
 
-# :fire: Simple Caculator ## :clap:
+# :fire: Simple Caculator :clap: 
 
   By: kiya kebe </br>
   Date: Sep 6/ 2022 </br>
