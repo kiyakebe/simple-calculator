@@ -24,4 +24,4 @@
 
 ***
 
-## Licensed unde  MTI License
+## Licensed under - MIT License
