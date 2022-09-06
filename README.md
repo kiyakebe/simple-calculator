@@ -22,4 +22,6 @@
   - Square Root
   - Logarithm
 
+***
+
 ## Licensed unde  MTI License
