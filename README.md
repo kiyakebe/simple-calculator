@@ -15,4 +15,4 @@
 - Square Root
 - Logarithm
 
-<span style="color: red;">text</span>.
+<span style="color: #3366ff;">text</span>
