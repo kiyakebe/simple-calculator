@@ -5,7 +5,7 @@
 
 ## Features
 
-- Addition
+- Addition :grinning:
 - Subtraction
 - Division
 - Multiplication
