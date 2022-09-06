@@ -14,5 +14,3 @@
 - Power
 - Square Root
 - Logarithm
-
-<span style="color: #3366ff;">text</span>
