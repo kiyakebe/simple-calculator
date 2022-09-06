@@ -1,11 +1,11 @@
 
-# Simple Caculator
+# :fire: Simple Caculator
 
 ![calculator](https://github.com/ksquare41/simple-calculator/blob/main/calculator.gif?raw=true)
 
 ## Features
 
-- Addition :grinning:
+- Addition
 - Subtraction
 - Division
 - Multiplication
