@@ -1,3 +1,1 @@
-# simple calculator
-
-JS Calculator
+![/home/kiya/Downloads/calculator_2.gif
