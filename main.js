@@ -1,10 +1,15 @@
 /*
  - SIMPLE JAVASCRIPT CALCULATOR -
-
-
-
+  By: kiya kebe
+  Date: Sep 6/ 2022
+  This calculator build using HTML, CSS and JS
+  It is capable of calculating simple operation
+  Features # Addition   # Subtraction   # Multiplication    # Division 
+           # Modulus    # Square Root   # Exponential       # Logarith
+  
+  To use 1. (+, -, /, *, ^, %) use the operator at the middle of the two inpute
+         2. (Log & Square Root) click on the button after the inpute
 */
-
 
 class Calculator{ // 
     constructor(prevText, currentText){ // constructor of the Calculator class
@@ -59,7 +64,6 @@ class Calculator{ //
         let computation // variable to store the computed value
         const prev = parseFloat(this.prevOperand) // convert the string to float number
         const current = parseFloat(this.currentOperand) // convert the string to float number
-
         if(isNaN(prev) || isNaN(current)) return // calcel the operation if either of them are empty
         // this condition if must for the calculation to get computed
         switch(this.operation){ // condition to compute the basic math calculation
@@ -102,7 +106,6 @@ class Calculator{ //
         }else{
             return integerDisplay.toString()
         }
-
     }
     updateDisplay(){
         this.currentText.innerText = this.getDisplayNumber(this.currentOperand)
@@ -148,7 +151,6 @@ const prevText = document.querySelector("[data-prev]")
 const currentText = document.querySelector("[data-current]")
 const logarithmFunction = document.querySelector("[data-logarithm]")
 const squareroot = document.querySelector("[data-sqrt]")
-squareroot
 
 const calculator = new Calculator(prevText, currentText) // create object of the class
 
@@ -171,7 +173,6 @@ equalsButton.addEventListener('click', button =>{ // access the equals button
     calculator.updateDisplay() // update the display after computation
     calculator.chackEqual = 1 // let the user choose to continue or start new computation
 })
-
 logarithmFunction.addEventListener('click', button =>{ // operate when the logarithm button is clicked
     if(calculator.currentOperand != ''){
         calculator.computation = Math.log(parseFloat(calculator.currentOperand)) // compute the logarithm
@@ -188,15 +189,12 @@ squareroot.addEventListener('click', button =>{ // operate when the squareroot b
     calculator.updateDisplay() // update the display
     calculator.chackEqual = 1
 })
-
 allClearButton.addEventListener('click', button =>{ // operate when the all clear button is clicked
     calculator.clear() // clear and update the display
 })
 deleteButton.addEventListener('click', button =>{ // operate when the delete button is clicked
     calculator.delete() // delete the end value in teh current display and update the dispaly
 })
-
-
 function clearHistory(){ // clear all history in the history table
     const historyTable = document.getElementById('historyTable')
     historyTable.style.width = 0
@@ -206,7 +204,6 @@ function clearHistory(){ // clear all history in the history table
         history.remove();
     });
 }
-
 function toggleHistory(){ // turn the history table on and off when the toggler button is clicked
     const historyTable = document.getElementById('historyTable')
     if(toggleId == 1){
