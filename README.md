@@ -6,8 +6,6 @@
 
 ## Features
 
-***
-
 - Addition
 - Subtraction
 - Division
