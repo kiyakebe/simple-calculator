@@ -1,7 +1,7 @@
 
 # :fire: Simple Caculator
 
-  By: kiya kebe
+  By: kiya kebe </br>
   Date: Sep 6/ 2022
   This calculator build using HTML, CSS and JS
   It is capable of calculating simple operation
