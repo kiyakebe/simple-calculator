@@ -13,13 +13,13 @@
 
 ## Features
 
-- Addition
-- Subtraction
-- Division
-- Multiplication
-- Modulus
-- Power
-- Square Root
-- Logarithm
+  - Addition
+  - Subtraction
+  - Division
+  - Multiplication
+  - Modulus
+  - Power
+  - Square Root
+  - Logarithm
 
-Licensed unde  MTI License
+## Licensed unde  MTI License
